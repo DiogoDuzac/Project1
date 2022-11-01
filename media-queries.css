@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+@media screen and (min-width:0px ) and (max-width: 650px){
+    .images .image {
+        margin: 0;
+    }
+    hr {
+        display: none;
+    }
+    footer {
+        margin-top: 50px;
+    }
+    form > p {
+        margin-top: 30px;
+    }
+}

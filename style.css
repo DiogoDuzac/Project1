@@ -83,6 +83,10 @@ main {
     margin: 20px;
 }
 
+.images .image > img {
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.13);
+}
+
 .image > p {
     margin-top: 10px;
 }
