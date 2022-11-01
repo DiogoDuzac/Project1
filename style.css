@@ -1,0 +1,179 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'lato', sans-serif;
+    color: #161616;
+}
+
+/* ------------HEADER---------------- */
+
+.topo {
+  
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px;
+}
+
+.topo p {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.topo-list {
+    display: flex;
+    margin-right: 5px;
+}
+.topo-list li img {
+    width: 20px;
+    margin: 0px 10px;
+    flex: 2;
+}
+
+
+.banner {
+    width: 100%;
+}
+
+.banner img {
+    width: 100%; 
+}
+
+.intro {
+   
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.397);
+    margin-bottom: 30px;
+}
+
+.intro .promo p {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/*---------------- MAIN -------------------*/
+main {
+    margin: auto;
+}
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.images .image {
+    margin: 20px;
+}
+
+.image > p {
+    margin-top: 10px;
+}
+
+.image .preco {
+    display: flex;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.image .preco > span {
+    color: #161616;
+    font-weight: bolder;
+    margin-right: 5px;
+}
+
+
+.image .preco > p {
+    color:  #5CA720;
+    font-weight: bold;
+}
+
+/* -------FOOTER-------------- */
+
+footer {
+    background-color: #F9F9F9;
+    padding: 20px 40px;
+   
+}
+
+.dados-bg {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.list-dados li {
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+form > p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+form > input {
+    padding: 15px;
+    border: .5px solid #D9D9D9;
+    margin-top: 20px;
+    max-width: 397px;
+}
+
+input::placeholder {
+    font-size: 14px;
+    font-weight: 600;
+    color: #D9D9D9;
+}
+
+form > button {
+    padding: 15px;
+    border: none;
+    background-color: #5CA720;
+    color: #F9F9F9;
+    font-weight: 600;
+}
+
+.redes-bg {
+    margin-top: 30px;
+    width: 100%;
+}
+
+
+.redes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.redes .midea {
+    display: flex;
+    gap: 15px;
+} 
+
+.redes img {
+   width: 29px; 
+}
+
+.redes .bancos {
+    margin-top: 20px;
+}
